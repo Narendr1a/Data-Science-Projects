@@ -1,10 +1,10 @@
 # Data Science Projects
 
-Welcome to the **Data Science Projects** repository! This collection showcases various data science projects demonstrating practical applications of machine learning, statistical analysis, data visualization, and forecasting using Jupyter Notebooks.
+Welcome to the **Data Science Projects** repository! This collection showcases various data science projects demonstrating practical applications of machine learning, statistical analysis, data vis[...] 
 
 ## 📚 Repository Overview
 
-This repository contains a curated set of data science projects built using Python and Jupyter Notebooks. Each project focuses on solving real-world problems through data analysis, exploratory data analysis (EDA), model building, and visualization. Notebooks are self-contained and include instructions to reproduce the analyses.
+This repository contains a curated set of data science projects built using Python and Jupyter Notebooks. Each project focuses on solving real-world problems through data analysis, exploratory data[...] 
 
 ## 🎯 What You'll Find Here
 
@@ -103,7 +103,7 @@ An end-to-end data science project evaluating organizational AI readiness and pr
 A time series forecasting project to predict Microsoft (MSFT) stock prices using ARIMA (AutoRegressive Integrated Moving Average) models.
 
 **Project Overview:**
-This project analyzes Microsoft's historical stock data and builds an ARIMA model to forecast future stock prices. The project demonstrates the application of statistical time series methods in forecasting.
+This project analyzes Microsoft's historical stock data and builds an ARIMA model to forecast future stock prices. The project demonstrates the application of statistical time series methods in f[...]
 
 **Key Features:**
 - **Data Collection:** Fetching historical MSFT stock data using yfinance
@@ -137,10 +137,10 @@ This project analyzes Microsoft's historical stock data and builds an ARIMA mode
 
 ### 3. **Analysing Pharmaceutical Sales Data** 💊
 
-A data analysis project focused on pharmaceutical sales data to uncover sales patterns, top-selling products, and regional performance. The notebook provides EDA, data cleaning, feature engineering, and simple predictive modeling to forecast sales trends.
+A data analysis project focused on pharmaceutical sales data to uncover sales patterns, top-selling products, and regional performance. The notebook provides EDA, data cleaning, feature engineeri[...]
 
 **Project Overview:**
-This project analyzes historical pharmaceutical sales data (sales by product, region, and time) and provides insights into drivers of sales, seasonality, and product performance. It includes reproducible steps to load data, perform EDA, build baseline models, and visualize findings.
+This project analyzes historical pharmaceutical sales data (sales by product, region, and time) and provides insights into drivers of sales, seasonality, and product performance. It includes repr[...]
 
 **Key Features:**
 - Data ingestion and cleaning (handling missing values, data types)
