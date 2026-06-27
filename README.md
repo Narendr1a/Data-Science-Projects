@@ -1,10 +1,10 @@
 # Data Science Projects
 
-Welcome to the **Data Science Projects** repository! This collection showcases various data science projects demonstrating practical applications of machine learning, statistical analysis, data visualization, and data wrangling techniques.
+Welcome to the **Data Science Projects** repository! This collection showcases various data science projects demonstrating practical applications of machine learning, statistical analysis, data visualization, and forecasting using Jupyter Notebooks.
 
 ## 📚 Repository Overview
 
-This repository contains a curated set of data science projects built using Python and Jupyter Notebooks. Each project focuses on solving real-world problems through data analysis, exploratory data analysis (EDA), and predictive modeling.
+This repository contains a curated set of data science projects built using Python and Jupyter Notebooks. Each project focuses on solving real-world problems through data analysis, exploratory data analysis (EDA), model building, and visualization. Notebooks are self-contained and include instructions to reproduce the analyses.
 
 ## 🎯 What You'll Find Here
 
@@ -35,12 +35,11 @@ This repository contains a curated set of data science projects built using Pyth
 ```
 Data-Science-Projects/
 ├── README.md
-├── Corporate-AI-Adoption/
-│   └── corporate_ai_analysis.ipynb
-├── Microsoft-Stock-Prediction/
-│   ├── microsoft_stock_prediction.ipynb
-│   ├── data/
-│   └── requirements.txt
+├── Analysing-pharmaceutical-sales-data/
+│   ├── analysing_pharmaceutical_sales.ipynb
+│   └── data/
+├── Microsoft_Stock_prediction.ipynb
+├── corporate _ai_adoption (3).ipynb
 └── ...
 ```
 
@@ -72,7 +71,7 @@ jupyter notebook
 
 ## 📖 How to Use
 
-1. Navigate to any project folder
+1. Navigate to any project folder or open a notebook in the repository root
 2. Open the `.ipynb` file in Jupyter Notebook
 3. Run cells sequentially to see the analysis and results
 4. Modify and experiment with the code as needed
@@ -104,7 +103,7 @@ An end-to-end data science project evaluating organizational AI readiness and pr
 A time series forecasting project to predict Microsoft (MSFT) stock prices using ARIMA (AutoRegressive Integrated Moving Average) models.
 
 **Project Overview:**
-This project analyzes Microsoft's historical stock data and builds an ARIMA model to forecast future stock prices. The project demonstrates the application of statistical time series methods in financial forecasting.
+This project analyzes Microsoft's historical stock data and builds an ARIMA model to forecast future stock prices. The project demonstrates the application of statistical time series methods in forecasting.
 
 **Key Features:**
 - **Data Collection:** Fetching historical MSFT stock data using yfinance
@@ -134,25 +133,34 @@ This project analyzes Microsoft's historical stock data and builds an ARIMA mode
 - Evaluated model performance using RMSE and MAE metrics
 - Residual analysis confirms model adequacy
 
-**Getting Started with Stock Prediction:**
-```python
-# Install required dependencies
-pip install yfinance statsmodels
+---
 
-# Run the notebook to:
-# 1. Download MSFT historical stock data
-# 2. Perform time series analysis and stationarity testing
-# 3. Identify optimal ARIMA parameters
-# 4. Train the ARIMA forecasting model
-# 5. Generate predictions and evaluate using RMSE & MAE
-# 6. Visualize historical data and forecasts
-```
+### 3. **Analysing Pharmaceutical Sales Data** 💊
 
-**ARIMA Model Details:**
-- **AR (AutoRegressive)** - Uses past values for prediction
-- **I (Integrated)** - Differencing to achieve stationarity
-- **MA (Moving Average)** - Uses past forecast errors
-- Parameter selection based on ACF/PACF analysis
+A data analysis project focused on pharmaceutical sales data to uncover sales patterns, top-selling products, and regional performance. The notebook provides EDA, data cleaning, feature engineering, and simple predictive modeling to forecast sales trends.
+
+**Project Overview:**
+This project analyzes historical pharmaceutical sales data (sales by product, region, and time) and provides insights into drivers of sales, seasonality, and product performance. It includes reproducible steps to load data, perform EDA, build baseline models, and visualize findings.
+
+**Key Features:**
+- Data ingestion and cleaning (handling missing values, data types)
+- Exploratory Data Analysis (sales distribution, top products, regional breakdown)
+- Time series decomposition to identify seasonality/trends
+- Feature engineering (rolling averages, lag features, promotion flags)
+- Baseline forecasting models (moving average, simple regressors)
+- Visualizations: sales trends, heatmaps, product comparisons
+
+**Tech Stack:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
+**How to run:**
+1. Open `Analysing-pharmaceutical-sales-data/analysing_pharmaceutical_sales.ipynb` in Jupyter
+2. Place dataset files (if any) inside the `Analysing-pharmaceutical-sales-data/data/` folder
+3. Run cells sequentially; adjust file paths as necessary
+
+**Insights (example):**
+- Top 5 products contributing to X% of revenue
+- Regional sales concentration and opportunities for growth
+- Seasonal patterns and recommended inventory adjustments
 
 ---
 
